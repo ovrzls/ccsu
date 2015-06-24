@@ -1,0 +1,505 @@
+/************************************
+
+	Custom Temp CSS
+
+***********************************/
+.clear {
+	clear:				both !important;
+}
+.clearRight{clear:right;}
+
+.onlyPrint,.onlyprint,
+.onlyResponse{display:none !important;}
+
+.button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #79bbff), color-stop(1, #378de5) );
+	background:-moz-linear-gradient( center top, #79bbff 5%, #378de5 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#79bbff', endColorstr='#378de5');
+	background-color:#79bbff;
+	-webkit-border-top-left-radius:4px;
+	-moz-border-radius-topleft:4px;
+	border-top-left-radius:4px;
+	-webkit-border-top-right-radius:4px;
+	-moz-border-radius-topright:4px;
+	border-top-right-radius:4px;
+	-webkit-border-bottom-right-radius:4px;
+	-moz-border-radius-bottomright:4px;
+	border-bottom-right-radius:4px;
+	-webkit-border-bottom-left-radius:4px;
+	-moz-border-radius-bottomleft:4px;
+	border-bottom-left-radius:4px;
+	text-indent:0;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #528ecc;
+	margin-bottom:5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+.button:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #378de5), color-stop(1, #79bbff) );
+	background:-moz-linear-gradient( center top, #378de5 5%, #79bbff 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#378de5', endColorstr='#79bbff');
+	background-color:#378de5;
+}.button:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Start of Helpful Links & Teacher Links */
+.linkCatThumb, .teachCatlink{
+	text-align:center;
+	margin:10px 8px;
+	width:112px;
+	height:95px;
+	border:2px solid #000;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	float:left;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+	overflow:hidden;
+}
+.linkCatThumb a,  .teachCatlink a{border-bottom:none !important;}
+.linkCatThumb img,  .teachCatlink img{
+	width:112px;
+	height:74px;
+	margin:0;
+	padding:0;
+}
+.linkCatThumb span, .teachCatlink span{
+	margin:0 !important;
+	padding:0 !important;
+	line-height:17px;
+	font-size:12px;
+}
+.teachCatlink{height:130px; width:auto;}
+.teachCatlink img{height:111px;width:74px;}
+.teachCatlink span{font-size:10px;}
+#StaffDept h2{text-align:center;}
+.linkStyled{
+	background:#eee;
+	color:#000;
+	width:auto;
+	height:auto;
+	border:1px solid #000;
+	border-radius:5px;
+	float:left;
+	margin:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	padding:6px;
+	-webkit-box-shadow: 0 8px 6px -6px black;
+	-moz-box-shadow: 0 8px 6px -6px black;
+	box-shadow: 0 8px 6px -6px black;
+}
+.linkStyled a{
+	display:block;
+	color:#fff;
+	text-decoration:none;
+	text-shadow:1px 1px #000;
+}
+.linkStyled .rightDetails{
+	float:right;
+	width:566px;
+	height:auto;
+	margin-left:10px;
+}
+.linkStyled .rightDetails h3{
+	font-size:14px;
+	margin:0 !important;
+	padding:0;
+}
+.linkStyled .rightDetails p{
+	padding:0;
+	margin:0 !important;
+	font-size:12px;
+}
+.linkStyled .rightDetails hr{
+	border:none;
+	border-bottom:1px solid #000;
+	margin:4px 0 !important;
+	}
+.linkStyled .left{
+	float:left;	
+	width:70px;
+	text-align:center;
+	overflow:hidden;
+}
+.linkStyled .left img{
+	width:auto;
+	height:auto;
+	max-width:67px;
+	max-height:70px;
+	border:2px solid #650000;
+	margin-bottom:10px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+	}
+.linkStyled .left a{
+	border-bottom:none !important;
+	color:#fff !important;
+	font-size:12px;
+	background:#650000;
+	border:2px solid #000;
+	padding:1px 3px;
+	border-radius:5px;
+	-webkit-border-radius:5px;
+	-moz-border-radius:5px;
+}
+/* End of Helpful Links & Teacher Links */
+
+
+/* Start of Calendar Styling */
+#ajaxOptions input{
+	display:inline-block;
+}
+#ajaxOptions label{
+	clear:both;
+	display:inline-block;
+	padding:.25em;
+	width:165px;
+}
+table#cal{
+	border:#000 1px solid;
+	border-collapse:collapse;
+}
+table#cal, table#cal td, table#cal tr{
+	width:95% !important;
+	padding:0;
+	margin:0 auto;
+}
+#cal2 .cal_date2, #cal2 .event_list, #cal2 .event_list td{
+	display:block;
+}#cal2 .cal_date2{
+	text-align:center;
+	border:1px solid #000;
+	border-bottom:1px dashed #222;
+	padding:.25em;
+	margin-top:.75em;
+}
+#cal2 .event_list{
+	border:1px solid #000;
+	border-top:none;
+	
+}
+#cal2 .event_list td{
+	padding:0;
+}
+#cal2 .event_list td div{
+	padding:.25em;
+}
+	.CalEvent2{background-color:#f5f5f5;}
+	.CalEvent2:nth-child(2n){background-color:#fff;}
+	.CalEvent2 a{border-bottom:none !important;color:#000 !important; line-height:1.5em;}
+	#thumbCal{
+	float:right;
+}
+#thumbCal tr.title th{
+	font-size:.75em;
+	padding: .5em .25em;
+}
+#thumbCal table td{
+	font-size:1em;
+	text-align:center;
+	padding:0.25em;
+}
+#thumbCal table td a{
+	display:block;
+	width:100%;
+	height:100%;
+	color:#000;
+}
+#thumbCal table td a:hover{
+	color:#000;
+}
+#thumbCal table td.hasEvent a{
+	border-bottom:1px solid #000;
+}
+#thumbCal table td.today{
+	background:#d8d8d8;
+}
+#thumbCal div.a_day, #thumbCal div.b_day{
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background:#adc3fa !important;
+}
+#thumbCal .A_day{
+	background:#adc3fa !important;
+}
+#thumbCal div.b_day, #thumbCal .B_day{
+	background:#b1faad !important;
+}
+#thumbCal table td.today.A_day{background:#c7997a !important;}
+#thumbCal table td.today.B_day{background:#80c77a !important;}
+/* End of Calendar Styling */
+
+/* Start of Search Table Styling */
+
+}#display table{
+	border-collapse: 	collapse;
+	width:				100%;
+	border:				0px;
+}#display table td{
+	text-align:			left;
+	vertical-align:		middle;
+	border:				0px;
+}#display table th{
+	font-weight:		normal;
+	text-align:			left;
+	color:				#808080;
+}.department {
+	background: 	#666F7F;
+	/*color:			#fff;*/
+	font-family:	Verdana;
+}table.search tr.line0 {
+	border:			1px solid #FFFFFF;
+	height:			15px;
+	font-family:	Verdana;
+	color:			#191970;
+}table.search tr.line1 {
+	background:		#E6E6FA;
+	border:			1px solid #FFFFFF;
+	height:			15px;
+	width:			100%;
+	font-family:	Verdana;
+	color:			#191970;
+}table.search tr.line2 {
+	background:			#CCCCFF;
+	border:				1px solid #FFFFFF;
+	height:				15px;
+	width:				100%;
+	font-family:			Verdana;
+	color:				#302B54;
+}table.search tr.line3 {
+	background:			#FFFFFF;
+	border-bottom: 2px solid #330099;
+	border-top: 0px none;
+	border-left: 0px none;
+	border-right: 0px none;
+	height:				15px;
+	width:				100%;
+	font-family:			Verdana;
+	font-weight:			bold;
+	color:				#330099;
+}table.search td{ 
+	padding: 			4px 6px 4px 4px;
+	font-family:			Verdana;
+}
+table.tab tr.people0 {
+	border:				1px solid #FFFFFF;
+	height:				15px;
+	font-family:			Verdana;
+	font-weight:			normal;
+	color:				#191970;
+}table.tab tr.people1 {
+	background:			#E6E6FA;
+	border:				1px solid #FFFFFF;
+	height:				15px;
+	width:				100%;
+	font-family:			Verdana;
+	font-weight:			normal;
+	color:				#191970;
+}table.tab tr.people2 {
+	background:			#CCCCFF;
+	border:				1px solid #FFFFFF;
+	height:				15px;
+	width:				100%;
+	font-family:			Verdana;
+	font-weight:			normal;
+	color:				#00008B;
+}table.tab td{ 
+	padding: 			4px 6px 4px 4px;
+}
+.overflow{overflow:visible;}
+td.pic a{position:relative;text-decoration:none;}
+td.pic a span{position:absolute; bottom:0px;right:18px; width:100px; padding:10px; display:none; z-index:9999; border:1px solid #000; background:white;}
+td.pic a:hover span{display:block;}
+td.pic a span p{padding:0px;margin:4px 0;width:100%;text-align:center;line-height:normal; color:#000; text-decoration:none;}
+
+/* End of Search Table Styling */
+/* Start of CCSU Communications Blog Banner */
+#ccsuComBanner{background:url('//www.ccsuvt.org/district-resources/images/ccsuComBannerBg.jpg') no-repeat !important;width:655px;padding:2px 15px 4px 0;height:200px;color:#606060;}
+#ccsuComBanner .left{
+	float:left;
+	height:100px;
+	padding:40px;
+	padding-top:47px;
+	margin:10px;
+	width:245px;
+}
+#ccsuComBanner .left img{
+	margin:5px 5px 0 0;
+	float:left;
+}
+#ccsuComBanner h1{
+	font-size:35px;
+	line-height:10px;
+	color:#344152;
+	text-shadow:1px 1px 1px #e9ebf2;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+/* End of CCSU Communications Blog Banner */
+
+/* Start of CCSU Boards style */
+
+.idTab > ul{
+	margin:0 !important;
+}
+.idTab > div{
+	padding:1em 0 0 1em;
+}
+.idTab .idTab{
+	padding-left:1em;
+}
+.idTab .idTab > div{
+	padding:0px;
+}
+.idTab > div h3{
+	margin:0 !important;
+	margin-bottom:.75em !important;
+}
+.idTab > ul > li{
+	display:inline-block;
+	min-height:2em;
+	margin:0 .25em 0 0 !important;
+}
+.idTab .idTab > ul > li{
+	min-height:1.25em;
+	margin:0 !important;
+}
+.idTab > ul > li > a{
+	background:#E6E6FA;
+	padding:.5em .25em;
+	border: 1px solid #aaa;
+	border-bottom:none !important; 
+	border-radius:8px 8px 0 0;
+}
+.idTab .idTab > ul > li > a{
+	background:#fff;
+	padding:.25em .3em;
+	border-radius:8px 8px 0 0;
+}
+.idTab > ul > li > a.selected{
+	background:none;
+}
+.idTab > ul > li > a.selected{
+	background:#ccf;
+	border-radius:8px 8px 0 0;
+}
+/* End of CCSU Boards style */
+/* Start IT for Staff */
+.iconButton{
+	background-color:#344152;
+	display:block;
+	display:inline-block;
+	margin:.5em 0 1em 5px;
+	text-indent:-9999em;
+	width:11.5%;
+	height:100px;
+	border:none !important;
+}
+.iconButton:hover{
+	background-color:#546172;
+}
+
+#software{background-image:url('https://www.ccsuvt.org/ccsu/wp-content/themes/ccsuV3/images/tech/software.png'); background-repeat: no-repeat; background-size: contain;}
+#office{background-image:url('https://www.ccsuvt.org/ccsu/wp-content/themes/ccsuV3/images/tech/office.png'); background-repeat: no-repeat; background-size: contain;}
+#googleApp{background-image:url('https://www.ccsuvt.org/ccsu/wp-content/themes/ccsuV3/images/tech/googleApps.png'); background-repeat: no-repeat; background-size: contain;}
+#website{background-image:url('https://www.ccsuvt.org/ccsu/wp-content/themes/ccsuV3/images/tech/website.png'); background-repeat: no-repeat; background-size: contain;}
+#hardware{background-image:url('https://www.ccsuvt.org/ccsu/wp-content/themes/ccsuV3/images/tech/hardware.png'); background-repeat: no-repeat; background-size: contain;}
+#forms{background-image:url('https://www.ccsuvt.org/ccsu/wp-content/themes/ccsuV3/images/tech/forms.png'); background-repeat: no-repeat; background-size: contain;}
+#adminApps{background-image:url('https://www.ccsuvt.org/ccsu/wp-content/themes/ccsuV3/images/tech/adminApps.png'); background-repeat: no-repeat; background-size: contain;}
+#osPlatforms{background-image:url('https://www.ccsuvt.org/ccsu/wp-content/themes/ccsuV3/images/tech/osPlatforms.png'); background-repeat: no-repeat; background-size: contain;}
+
+/* End IT for Staff */
+
+/* Start of District Announcements */
+/*
+#importantAnnouncement{
+	border-bottom: 2px solid #000;
+	background-color: #f55;
+	color: #fff;
+	text-shadow: 1px 1px 2px #000;
+	text-align: center;
+	min-height: 24px;
+	margin:0;
+}
+#importantAnnouncement.News,
+#importantAnnouncement.Update{
+	background-color:#093;
+}
+.Important.Announcement{
+	background-color:#06C;
+}#importantAnnouncement h1{
+	font-size:20px;
+}
+#content.ninecol #important_notes{
+	display:block;
+	margin:1em auto;
+	width: auto;
+	border: 3px solid #C33;
+}
+#content.ninecol #important_notes p{
+	background:#C33;
+	margin:0;
+	padding:0;
+	font-size:14px;
+	color:#fff;
+	font-weight:bold;
+}
+#content.ninecol #important_notes p em{
+	font-size:10px;
+}
+#content.ninecol #important_notes ul{
+	display:inline-block;
+	width:100%;
+	background:#bbb;
+	padding:0;
+	margin:0;
+	list-style:none;
+}
+#content.ninecol #important_notes li{
+	display:block;
+	background:#eee;
+	padding:.5em;
+	margin:.5em 10px;
+}
+*/
+
+.subscribe, .notify{
+	display:block;
+	background:url('../images/transparentMail.gif') no-repeat 8px 8px;
+	padding:8px;
+	padding-left:32px;
+	margin-left:25px;
+	font-size:16px !important;
+	width:auto;
+	float:left;
+	color:#000 !important;
+	text-decoration:none;
+	opacity:.55;
+	filter: alpha(opacity = 55);
+	border:2px solid #dedede !important;
+}
+.notify{
+	background:url('../images/transparentMic.gif') no-repeat 8px 8px;
+
+/* End of District Announcements  */

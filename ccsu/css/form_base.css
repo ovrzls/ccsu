@@ -1,0 +1,1504 @@
+/* solid-blue */
+
+.form.volunteer{
+	margin:0 auto;
+}
+.form.volunteer>div,
+.form.volunteer>.title{
+	margin: 8px;
+}
+.form.volunteer .error-field .required{
+	color:#FF9999;
+}
+.form.volunteer .error-field input,
+.form.volunteer .error-field input[type=text],
+.form.volunteer .error-field input[type=password],
+.form.volunteer .error-field input[type=email],
+.form.volunteer .error-field input[type=url],
+.form.volunteer .error-field input[type=date],
+.form.volunteer .error-field input[type=number],
+.form.volunteer .error-field textarea{
+	border-color:#D893A1;
+	background-color: #FBE6F2;
+}
+.form.volunteer label.error{
+  display:inline-block;
+  font-size:0.9em;
+}
+.form.volunteer .error,
+.form.volunteer .error #recaptcha_widget_div{
+  padding: 3px 14px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+
+  color: #b94a48;
+  background-color: #f2dede;
+  border-color: #eed3d7;
+  color: #c09853;
+}
+.form.volunteer .error h4 {
+  color: #b94a48;
+  margin: 0;
+}
+
+.form.volunteer .error .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: 20px;
+}
+.form.volunteer .column{
+	float:left; 
+}
+/* width = parseInt(100/columns.length)*/
+.form.volunteer .column1{ width:100%;}
+.form.volunteer .column2{ width:50%; }
+.form.volunteer .column3{ width:33%; }
+.form.volunteer .column4{ width:25%; }
+.form.volunteer .column5{ width:20%; }
+
+
+
+.form.volunteer .large{
+	width: 100%;
+	*width: 94%;
+}
+.form.volunteer .medium{
+	width: 50%;
+	*width: 47%;
+}
+.form.volunteer .small{
+	width: 25%;
+	*width: 23%;
+}
+
+.form.volunteer textarea.large{
+	width: 100%;
+	*width: 94%;
+	height: 20em;
+}
+.form.volunteer textarea.medium{
+	width: 100%;
+	*width: 94%;
+	height: 10em;
+}
+.form.volunteer textarea.small{
+	width: 100%;
+	*width: 94%;
+	height: 5.5em;
+}
+
+/* address select style */
+.form.volunteer .element-address .country {
+	position: relative;
+}
+
+/*.form.volunteer .element-address .element-phone {
+    display: inline-block;
+    width:650px;
+}*/
+.form.volunteer .element-address .element-email {
+    display: inline-block;
+}
+
+
+.frmd{
+	display:none;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  line-height: 0;
+  content: "";
+}
+
+
+.blurBg,
+.blurBg-true{
+	background-attachment: fixed;
+	background-image:	-webkit-linear-gradient(85deg, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%), /* linear bottom */
+						-webkit-radial-gradient(40% 60%,ellipse farthest-side, rgba(255, 255, 255, 0.45) -10%, rgba(255, 255, 255, 0) 100%),/* center white */
+						-webkit-radial-gradient(50% -10%,circle farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 30%),/* top center white */
+						-webkit-radial-gradient(100% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%),/* top right white */
+						-webkit-radial-gradient(0% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 10%),/* top left white */
+						-webkit-radial-gradient(90% 60%,ellipse farthest-side, rgba(0, 0, 0, 0.35) -10%, rgba(0, 0, 0, 0) 100%),/* center right black */
+						-webkit-radial-gradient(20% 10%,circle farthest-side, rgba(0, 0, 0, 0.25) -10%, rgba(0, 0, 0, 0) 20%);/* top left black */
+						
+	background-image:	-moz-linear-gradient(85deg, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%), /* linear bottom */
+						-moz-radial-gradient(40% 60%,ellipse farthest-side, rgba(255, 255, 255, 0.45) -10%, rgba(255, 255, 255, 0) 100%),/* center white */
+						-moz-radial-gradient(50% -10%,circle farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 30%),/* top center white */
+						-moz-radial-gradient(100% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%),/* top right white */
+						-moz-radial-gradient(0% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 10%),/* top left white */
+						-moz-radial-gradient(90% 60%,ellipse farthest-side, rgba(0, 0, 0, 0.35) -10%, rgba(0, 0, 0, 0) 100%),/* center right black */
+						-moz-radial-gradient(20% 10%,circle farthest-side, rgba(0, 0, 0, 0.25) -10%, rgba(0, 0, 0, 0) 20%);/* top left black */
+						
+	background-image:	-ms-linear-gradient(85deg, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%), /* linear bottom */
+						-ms-radial-gradient(40% 60%,ellipse farthest-side, rgba(255, 255, 255, 0.45) -10%, rgba(255, 255, 255, 0) 100%),/* center white */
+						-ms-radial-gradient(50% -10%,circle farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 30%),/* top center white */
+						-ms-radial-gradient(100% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%),/* top right white */
+						-ms-radial-gradient(0% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 10%),/* top left white */
+						-ms-radial-gradient(90% 60%,ellipse farthest-side, rgba(0, 0, 0, 0.35) -10%, rgba(0, 0, 0, 0) 100%),/* center right black */
+						-ms-radial-gradient(20% 10%,circle farthest-side, rgba(0, 0, 0, 0.25) -10%, rgba(0, 0, 0, 0) 20%);/* top left black */
+					
+	background-image:	-o-linear-gradient(85deg, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%), /* linear bottom */
+						-o-radial-gradient(40% 60%,ellipse farthest-side, rgba(255, 255, 255, 0.45) -10%, rgba(255, 255, 255, 0) 100%),/* center white */
+						-o-radial-gradient(50% -10%,circle farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 30%),/* top center white */
+						-o-radial-gradient(100% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%),/* top right white */
+						-o-radial-gradient(0% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 10%),/* top left white */
+						-o-radial-gradient(90% 60%,ellipse farthest-side, rgba(0, 0, 0, 0.35) -10%, rgba(0, 0, 0, 0) 100%),/* center right black */
+						-o-radial-gradient(20% 10%,circle farthest-side, rgba(0, 0, 0, 0.25) -10%, rgba(0, 0, 0, 0) 20%);/* top left black */
+					
+	background-image:	linear-gradient(85deg, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%), /* linear bottom */
+						radial-gradient(40% 60%,ellipse farthest-side, rgba(255, 255, 255, 0.45) -10%, rgba(255, 255, 255, 0) 100%),/* center white */
+						radial-gradient(50% -10%,circle farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 30%),/* top center white */
+						radial-gradient(100% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 20%),/* top right white */
+						radial-gradient(0% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.35) -10%, rgba(255, 255, 255, 0) 10%),/* top left white */
+						radial-gradient(90% 60%,ellipse farthest-side, rgba(0, 0, 0, 0.35) -10%, rgba(0, 0, 0, 0) 100%),/* center right black */
+						radial-gradient(20% 10%,circle farthest-side, rgba(0, 0, 0, 0.25) -10%, rgba(0, 0, 0, 0) 20%);/* top left black */
+	/*
+		radial-gradient(40% 60%,ellipse farthest-side, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 50%),
+		radial-gradient(50% -10%,circle closest-corner, rgba(255, 255, 255, 0.3) 20%, rgba(255, 255, 255, 0) 50%),
+		radial-gradient(0% 100%,ellipse farthest-side, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 20%),
+		radial-gradient(100% 0%,ellipse farthest-side, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 20%),
+		radial-gradient(1% 2%,circle farthest-side, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 20%);
+	*/
+}
+
+#formoid-info {
+	display: block;
+	width: 400px;
+	margin: 0 auto;
+	padding: 10px;
+	text-align: center;
+	color: #c09853;
+	font-size: 12px;
+	max-width: 100%;
+}/*
+
+
+Solid style
+
+
+*/
+.form.volunteer{
+    font-size: 1em;
+    line-height: 1.231;
+
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    -webkit-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    -moz-box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.65);
+}
+.form.volunteer label.title{
+    font-size: 1em;
+    font-weight: 500;
+    width: auto;
+}
+.form.volunteer input[type=button]{
+    outline: none;
+    font-size: 1em;
+}
+.form.volunteer input[type=submit]{
+    outline: none;
+    font-size: 1.2em;
+}/*
+.form.volunteer>div{
+    margin-left: 25px;
+    margin-right: 25px;
+}*/
+.form.volunteer h2 {
+	margin: 0.2em 0;
+    font-size: 2em;
+    font-weight: 300;
+    color: #fff;
+}
+
+.form.volunteer label {
+	display: block;
+	margin-bottom: 3px;
+	clear: both;
+}
+
+.form.volunteer div, .form.volunteer span, .form.volunteer label, .form.volunteer input, .form.volunteer textarea, .form.volunteer select, .form.volunteer button, .form.volunteer ul, .form.volunteer li, .form.volunteer a{
+	font-family: inherit;
+    color: inherit;
+}
+/* Global Declaration */
+
+/*
+CORE FUNCTIONALITY 
+
+Not advised to edit stuff below this line
+-----------------------------------------------------
+*/
+
+
+/* submit + title */
+.form.volunteer div.submit,
+.form.volunteer div.title{
+    margin: 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+.form.volunteer div.submit{
+    vertical-align: middle;
+    text-align: right;
+    border-top: 2px solid #d6dbdf;
+	background-color: #F3F5FA;
+}
+.form.volunteer div.title {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.form.volunteer div.title h2{
+    margin-left: 27px;
+    display:inline-block;
+}
+
+
+/* Button & submit*/
+.form.volunteer input[type=button],
+.form.volunteer input[type=submit]{
+    display: -moz-inline-box;
+    display: inline-block;
+    padding: 4px 12px;
+    margin-bottom: 1px;
+    color: #fff;
+    text-align: left;
+    vertical-align: middle;
+    cursor: pointer;
+    background: #fff;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: normal;
+
+    border: 2px solid #bdc3c7;
+    -webkit-transition: all 0.25s ease-in-out;
+    -moz-transition: all 0.25s ease-in-out;
+    -ms-transition: all 0.25s ease-in-out;
+    -o-transition: all 0.25s ease-in-out;
+    transition: all 0.25s ease-in-out;
+
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+
+    -webkit-box-shadow: inset 0 -0.3em 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -0.3em 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -0.3em 0 rgba(0, 0, 0, 0.2);
+}
+
+.form.volunteer input[type=button][disabled] {
+  cursor: default;
+  opacity: 0.65;
+}
+
+.form.volunteer input[type=submit]{
+    text-align: center;
+    opacity: 1;
+	color: #ffffff;
+    border: none;
+    right: 20px;
+    margin-right: 27px;
+    padding: 11px 41px;
+}
+
+.form.volunteer input[type=submit]:hover{
+    text-decoration: none;
+}
+.form.volunteer input[type=submit]:active{
+    -webkit-box-shadow: inset 0 -0.15em 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -0.15em 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -0.15em 0 rgba(0, 0, 0, 0.2);
+}
+
+/* File input */
+.form.volunteer .element-file label{
+    position: relative;
+}
+.form.volunteer .element-file .title{
+    position: static;
+}
+.form.volunteer .element-file .button {
+	z-index: 1;
+    position: absolute;
+    right: 4px;
+    top: 4px;
+	bottom: 4px;
+    float: none;
+    font-size: 1em;
+    color: #fff;
+
+    padding: 1.8% 1.2em 0 1.2em;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+
+    -webkit-box-shadow: inset 0 -0.3em 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -0.3em 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -0.3em 0 rgba(0, 0, 0, 0.2);
+
+    -webkit-transition: all .25s ease-in-out;
+    -moz-transition: all .25s ease-in-out;
+    -ms-transition: all .25s ease-in-out;
+    -o-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+}
+.form.volunteer .element-file .button:active{
+    -webkit-box-shadow: inset 0 -0.15em 0 rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 -0.15em 0 rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 -0.15em 0 rgba(0, 0, 0, 0.2);
+}
+.form.volunteer .element-file .file_text{
+    overflow: hidden;
+    color: #A9A9A9;
+    background-color: #fff;
+    -webkit-transition: border-color .25s ease-in-out;
+    -moz-transition: border-color .25s ease-in-out;
+    -ms-transition: border-color .25s ease-in-out;
+    -o-transition: border-color .25s ease-in-out;
+    transition: border-color .25s ease-in-out;
+}
+
+.form.volunteer .element-file .file_input {
+    position: absolute;
+    top: 0;
+    right: 0;
+	bottom: 0;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0;
+	filter: alpha(opacity=0);
+	width: 100%;
+}
+* html .form.volunteer .element-file .file_input,
+*+html .form.volunteer .element-file .file_input{
+    position: relative;
+	left: auto;
+	right: auto;
+	top: auto;
+	bottom: auto;
+	width: auto;
+    opacity: 1;
+	filter: alpha(opacity=100);
+}
+* html .form.volunteer .element-file .button,
+*+html .form.volunteer .element-file .button{
+	display: none;
+}
+* html .form.volunteer .element-file label,
+*+html .form.volunteer .element-file label,
+* html .form.volunteer .element-file .file_text,
+*+html .form.volunteer .element-file .file_text{
+	border: none;
+}
+* html .form.volunteer .element-file .title,
+*+html .form.volunteer .element-file .title{
+	display: block;
+}
+
+
+/* Radio & checkbox */
+.form.volunteer div.element-checkbox, .form.volunteer div.element-radio{
+	overflow:hidden;
+    line-height: 2.2;
+}
+.form.volunteer input[type=checkbox],
+.form.volunteer input[type=radio]{
+	z-index:1;
+	position:absolute;
+    float: left;
+	opacity:0.01;
+	font-size: 1.3em;
+	width: 1.2em;
+	height: 1em;
+	margin: 0;
+    cursor: pointer;
+}
+
+.form.volunteer input[type=radio]+span,
+.form.volunteer input[type=checkbox]+span{
+    margin-right:-19px;
+    padding-top: 0;
+    z-index:0;
+    position: relative;
+    left: 0;
+    top: 0;
+    vertical-align:top;
+    font-size: 1em;
+    line-height: 1.3;
+    cursor: pointer;
+}
+.form.volunteer input[type=checkbox]+span:before{
+    position: relative;
+    font-family: FontAwesome;
+    margin-right: 0.2em;
+    color: transparent;
+    font-size: 1em;
+    line-height: 1;
+    vertical-align:top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+/* checkbox */
+.form.volunteer input[type=checkbox]+span:before{
+    content: "\f00c";
+    font-size: 0.65em;
+    padding: 0.3em;
+    font-weight: bold;
+    margin-right: 0.6em;
+    line-height: 2;
+    border-style: solid;
+    border-width: 0.3em;
+    -webkit-transition: border-color .5s ease-in-out;
+    -moz-transition: border-color .5s ease-in-out;
+    -ms-transition: border-color .5s ease-in-out;
+    -o-transition: border-color .5s ease-in-out;
+    transition: border-color .5s ease-in-out;
+
+    -webkit-border-radius:0.3em;
+    -moz-border-radius:0.3em;
+    border-radius:0.3em;
+}
+
+.form.volunteer input[type=checkbox].inline-checkbox+span {
+    top: 7px;
+    left: 10px;
+}
+
+/* radio */
+.form.volunteer input[type=radio]+span:before {
+    position: relative;
+    font-family: FontAwesome;
+    margin-right: 0.2em;
+    color: transparent;
+    font-size: 1.4em;
+    line-height: 1;
+    vertical-align:top;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+.form.volunteer input[type=radio]+span:before{
+    content: "\f00c";
+}
+.form.volunteer input[type=radio]:checked+span:before{
+    content: "\f00c";
+}
+
+
+/*
+.form.volunteer input[type=text],
+.form.volunteer input[type=password],
+.form.volunteer input[type=email],
+.form.volunteer input[type=url],
+.form.volunteer input[type=date],
+.form.volunteer input[type=number],
+.form.volunteer input[type=tel],
+.form.volunteer textarea,
+.form.volunteer .element-file .file_text,
+.form.volunteer select{
+    max-height: 42px;
+    border-style: solid;
+    border-width: 2px;
+	border-color: #bdc3c7;
+    -webkit-transition: border-color 0.5s ease-in-out;
+    -moz-transition: border-color 0.5s ease-in-out;
+    -ms-transition: border-color 0.5s ease-in-out;
+    -o-transition: border-color 0.5s ease-in-out;
+    transition: border-color 0.5s ease-in-out;
+
+    -webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+
+    padding: 10px 10px 9px 2.3em;
+	
+	outline:none;
+
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: normal;
+	
+    font-size: 1em;
+}*/
+.item-cont {
+    display: inline-block;
+}
+.form.volunteer .element-address input[type=text],
+.form.volunteer .element-name input[type=text],
+.form.volunteer .element-altname input[type=text],
+.form.volunteer .element-child input[type=text],
+.form.volunteer .element-file .file_text,
+.form.volunteer textarea{
+	width: 100%;
+	*width: 94%;
+}
+.form.volunteer textarea{
+    height: auto;
+}
+.form.volunteer  select{
+	cursor: pointer;
+	text-align: left;
+	width: 100%;
+}
+.form.volunteer .element-address input[type=text] {
+    margin-bottom: 6px;
+}
+
+
+
+/* icons */
+/*
+\e800 - icon-text
+\e801 - icon-select
+\e802 - icon-date
+\e803 - icon-num
+\e804 - icon-file
+"\f0e0" - icon-email
+\e806 - icon-url
+\e807 - icon-pass
+"\f1e4" - icon-phone
+\e809 - icon-street
+\e80A - icon-city
+\e80B - icon-profile
+*/
+
+.form.volunteer .item-cont,
+.form.volunteer .element-address .country,
+.form.volunteer .element-name .nameFirst,
+.form.volunteer .element-name .nameLast,
+.form.volunteer .element-address .addr1,
+.form.volunteer .element-address .addr2,
+.form.volunteer .element-address .city,
+.form.volunteer .element-address .state,
+.form.volunteer .element-address .zip,
+.form.volunteer .element-email .email, 
+.form.volunteer .element-phone .homePhone, 
+.form.volunteer .element-phone .mobilePhone, 
+.form.volunteer .element-phone .workPhone{
+    position: relative;
+}
+
+.form.volunteer .icon-place:before {
+    position: absolute;
+    font: 1em 'FontAwesome';
+    vertical-align: top;
+    top: 15px;
+    left: 0.9em;
+    pointer-events: none;
+    color: #A2A6A8;
+    z-index: 2;
+}
+
+.form.volunteer .element-input .item-cont .icon-place:before,
+.form.volunteer .element-textarea .item-cont .icon-place:before {
+    content:"\f007";
+}
+.form.volunteer .element-select .item-cont .icon-place:before,
+.form.volunteer .element-multiple .item-cont .icon-place:before,
+.form.volunteer .element-address .country .icon-place:before {
+    top: 12px;
+    content: "\f0ac";
+}
+.form.volunteer .element-dob .item-cont .icon-place:before {
+    content:"\f073";
+}
+.form.volunteer .element-number .item-cont .icon-place:before,
+.form.volunteer .element-address .zip .icon-place:before {
+    content: "\f041";
+}
+.form.volunteer .element-file .item-cont .icon-place:before {
+    content: '\f093';
+}
+.form.volunteer .element-email .email .icon-place:before{
+    content: "\f0e0";
+}
+.form.volunteer .element-url .item-cont .icon-place:before {
+    content: "\f041";
+}
+.form.volunteer .element-password .item-cont .icon-place:before {
+    content: '\f069\f069\f069';
+}
+.form.volunteer .element-phone .homePhone .icon-place:before,
+.form.volunteer .element-phone .mobilePhone .icon-place:before, 
+.form.volunteer .element-phone .workPhone .icon-place:before{
+    content: "\f1e4";
+}
+.form.volunteer .element-name .nameFirst .icon-place:before,
+.form.volunteer .element-name .nameLast .icon-place:before {
+    content: "\f007";
+}
+.form.volunteer .element-address .addr1 .icon-place:before /*,
+.form.volunteer .element-address .addr2 .icon-place:before */{
+    top: 0;
+    content: "\f041";
+}
+.form.volunteer .element-address .city .icon-place:before,
+.form.volunteer .element-address .state .icon-place:before {
+    content: "\f041";
+}
+
+
+/* NAME last first */
+.form.volunteer .element-phone .homePhone, .form.volunteer .element-phone .mobilePhone, .form.volunteer .element-phone .workPhone{
+    width: 25%;
+	left: 0;
+    display: inline-block;
+    margin-right: 5%;
+	vertical-align: top;
+	zoom: 1;
+    margin-bottom:6px;
+}
+
+.form.volunteer .element-email .email{
+    width: 150%;
+	left: 0;
+    display: inline-block;
+    margin-right: 5%;
+	vertical-align: top;
+	zoom: 1;
+}
+
+.form.volunteer .element-name .nameFirst, .form.volunteer .element-altname .altnameFirst{
+    width: 35%;
+	*width: 39%;
+	left: 0;
+    display: inline-block;
+    margin-right: 5%;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+}
+.form.volunteer .element-child .childFirst, .form.volunteer .element-child .childLast, .form.volunteer .element-child .childRelationship{
+    width: 25%;
+	*width: 39%;
+	left: 0;
+    display: inline-block;
+    margin-right: 5%;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+}
+
+
+.form.volunteer .element-name .nameMiddle{
+    width: 9%;
+	*width: 39%;
+	left: 0;
+    display: inline-block;
+    margin-right: 5%;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+}
+.form.volunteer .element-name .nameLast, .form.volunteer .element-altname .altnameLast{
+    width: 40%;
+	*width: 50%;
+    display: inline-block;
+	vertical-align: top;
+	zoom: 1;
+	*display: inline;
+}
+/* ADDRESS */
+
+.form.volunteer .element-address .city{
+    width: 47%;
+	*width: 44%;
+    display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: top;
+    margin-right: 1%;
+}
+.form.volunteer .element-address .zip {
+    width: 17%;
+    *width: 14%;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: top;
+    margin-right: 1%;
+}
+.form.volunteer .element-address .state,
+.form.volunteer .element-address .country{
+    width: 25%;
+	*width: 24%;
+    display: inline-block;
+	zoom: 1;
+	*display: inline;
+	vertical-align: top;
+    margin-right: 1%;
+}
+.form.volunteer .element-address .country select{
+    cursor: pointer;
+}
+.form.volunteer .element-address label,
+.form.volunteer .element-name label{
+    font-size: 0.8em;
+}
+.form.volunteer .element-address label.title,
+.form.volunteer .element-name label.title{
+    font-size: 1em;
+}
+
+/* type number */
+.form.volunteer input[type=number]::-webkit-inner-spin-button, 
+.form.volunteer input[type=number]::-webkit-outer-spin-button{ 
+	-webkit-appearance: none;
+}
+
+/* recaptcha */
+.form.volunteer .recaptchatable,
+.form.volunteer .recaptchatable #recaptcha_image,
+.form.volunteer .recaptchatable #recaptcha_challenge_field_holder input{
+	border-collapse: separate !important;
+	border: 2px solid #BDC3C7 !important;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.form.volunteer .recaptchatable #recaptcha_image img{
+	border-color: transparent;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/* ERRORs */
+.form.volunteer .error,
+.form.volunteer .error #recaptcha_widget_div{
+    display: block;
+    background-color: #FBDBCF;
+    text-shadow: none;
+    border: none;
+    padding: 15px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin-left: 25px;
+    line-height: 1;
+}
+.form.volunteer label.error {
+    line-height: 1;
+    display: block;
+}
+.form.volunteer .error-label {
+    line-height: 1;
+    color: #900;
+}
+.tooltip {
+    position: relative;
+	margin-top: 6px;
+}
+.tooltip-arrow {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+.tooltip.bottom .tooltip-arrow {
+    top: -8px;
+    left: 20px;
+    border-bottom-color: #FBDBCF;
+    border-width: 0 8px 8px;
+}
+.alert {
+  padding: 8px 35px 8px 14px;
+  margin-bottom: 20px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  background-color: #fcf8e3;
+  border: 1px solid #fbeed5;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+.alert,
+.alert h4 {
+  color: #900;
+}
+
+.alert h4 {
+  margin: 0;
+}
+
+.alert .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: 20px;
+}
+
+
+.alert-success {
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+.alert-success h4 {
+  color: #468847;
+}
+
+.alert-error {
+    color: #b94a48;
+    background-color: #f2dede;
+    border-color: #eed3d7;
+}
+
+.alert-info {
+  color: #3a87ad;
+  background-color: #d9edf7;
+  border-color: #bce8f1;
+}
+
+.alert-info h4 {
+  color: #3a87ad;
+}
+
+
+
+
+@media all and (max-width:400px){
+    .form.volunteer .element-radio .column,
+    .form.volunteer .element-checkbox .column,
+	.form.volunteer .element-name .nameFirst,
+	.form.volunteer .element-name .nameLast,
+	.form.volunteer .element-address .city,
+	.form.volunteer .element-address span.state,
+	.form.volunteer .element-address .zip,
+	.form.volunteer .element-address .country{
+        width: 100%;
+		display: block;
+		margin-right: 0;
+    }
+}/* .form.volunteer color scheme begin */
+/*
+    first: #3498DB;
+    second: #2372A7;
+    third: #70B6E5;
+*/
+
+.form.volunteer input[type=button]:focus,
+.form.volunteer input[type=button]:active,
+.form.volunteer input[type=button]:hover,
+.form.volunteer input[type=button][disabled] {
+    border-color: #3498DB;
+}
+.form.volunteer div.title{
+    background-color: #3498DB;
+    border-top: 1px solid #70B6E5;
+    border-bottom: 5px solid #2372A7;
+}
+
+.form.volunteer input[type=submit]{
+    background-color: #3498DB;
+}
+
+.form.volunteer input[type=submit]:hover{
+    background-color: #70B6E5;
+}
+.form.volunteer input[type=submit]:active{
+    background-color: #2372A7;
+ }
+
+/* File input */
+.form.volunteer .element-file .button {
+    background-color: #3498DB;
+}
+.form.volunteer .element-file .file_text{
+    border-color: #bdc3c7;
+}
+.form.volunteer .element-file label:hover .file_text{
+    border-color: #70B6E5;
+}
+.form.volunteer .element-file .button:hover {
+    background-color: #70B6E5;
+}
+.form.volunteer .element-file .button:active {
+    background-color: #2372A7;
+}
+.form.volunteer .element-file label:active .file_text{
+    border-color: #3498DB;
+}
+
+/* element-submit + element-text */
+.form.volunteer .element-submit,
+.form.volunteer .element-text{
+    background-color: #bcc3ca;
+}
+.form.volunteer .element-submit{
+    background-color: #edeff1;
+    border-top: 2px solid #d6dbdf;
+}
+
+/* checkbox & radio*/
+.form.volunteer input[type=checkbox]+span:before{
+    border-color: #bdc3c7;
+}
+.form.volunteer input[type=checkbox]:hover+span:before{
+    border-color: #70B6E5;
+}
+.form.volunteer input[type=checkbox]:checked+span:before{
+    color: #3498DB;
+    border-color: #3498DB;
+}
+
+/* radio */
+.form.volunteer input[type=radio]+span:before{
+    color: #bdc3c7;
+}
+.form.volunteer input[type=radio]:hover+span:before{
+    color: #70B6E5;
+}
+.form.volunteer input[type=radio]:checked+span:before{
+    color: #3498DB;
+}
+
+
+.form.volunteer input[type=text]:hover,
+.form.volunteer input[type=tel]:hover,
+.form.volunteer input[type=password]:hover,
+.form.volunteer input[type=email]:hover,
+.form.volunteer input[type=url]:hover,
+.form.volunteer input[type=date]:hover,
+.form.volunteer input[type=number]:hover,
+.form.volunteer input[type=file]:hover,
+.form.volunteer textarea:hover,
+.form.volunteer select:hover {
+    border-color: #70B6E5;
+}
+.form.volunteer input[type=text]:focus,
+.form.volunteer input[type=tel]:focus,
+.form.volunteer input[type=password]:focus,
+.form.volunteer input[type=email]:focus,
+.form.volunteer input[type=url]:focus,
+.form.volunteer input[type=date]:focus,
+.form.volunteer input[type=number]:focus,
+.form.volunteer input[type=file]:focus,
+.form.volunteer textarea:focus,
+.form.volunteer select:focus{
+    border-color: #3498DB;
+}
+
+
+
+/* element icons */
+.form.volunteer input:focus ~ .icon-place:before,
+.form.volunteer textarea:focus ~ .icon-place:before,
+.form.volunteer select:focus ~ .icon-place:before,
+.form.volunteer .select.open ~ .icon-place:before,
+.form.volunteer input[type=file]:focus ~ .icon-place:before,
+.form.volunteer .button:focus ~ .icon-place:before,
+.form.volunteer .file_text:focus ~ .icon-place:before {
+    color: #3498DB;
+}
+
+
+
+/* bootstrap select */
+.form.volunteer .dropdown-menu li.active > a,
+.form.volunteer .dropdown-menu li.selected > a,
+.form.volunteer .dropdown-menu li.active > a.highlighted,
+.form.volunteer .dropdown-menu li.selected > a.highlighted,
+.form.volunteer .dropdown-inverse li.active > a,
+.form.volunteer .dropdown-inverse li.selected > a {
+    background-color: #3498DB;
+}
+.form.volunteer .btn.btn-primary:hover,
+.form.volunteer .btn.btn-primary:focus,
+.form.volunteer .btn-group:focus .btn.btn-primary.dropdown-toggle {
+    border-color: #70B6E5;
+}
+.form.volunteer .btn.btn-primary:active,
+.form.volunteer .btn-group.open .btn.btn-primary.dropdown-toggle,
+.form.volunteer .btn.btn-primary.active,
+.form.volunteer .dropdown-menu li.active > a:hover,
+.form.volunteer .dropdown-menu li.selected > a:hover,
+.form.volunteer .dropdown-menu li.active > a.highlighted:hover,
+.form.volunteer .dropdown-menu li.selected > a.highlighted:hover,
+.form.volunteer .dropdown-menu li.active > a:focus,
+.form.volunteer .dropdown-menu li.selected > a:focus,
+.form.volunteer .dropdown-menu li.active > a.highlighted:focus,
+.form.volunteer .dropdown-menu li.selected > a.highlighted:focus {
+    border-color: #3498DB;
+}
+.form.volunteer .dropdown-arrow {
+  border-bottom: 8px solid #3498DB;
+}
+.form.volunteer .dropdown-menu {
+    border: 2px solid #3498DB;
+}
+
+
+
+
+/* datepicker */
+.datepicker {
+    border: 2px solid #3498DB;
+}
+.datepicker:before {
+    border-bottom: 7px solid #3498DB;
+}
+.datepicker td.active,
+.datepicker td.active:hover,
+.datepicker td.active:hover:hover,
+.datepicker td.active:focus,
+.datepicker td.active:hover:focus,
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td.active.disabled,
+.datepicker td.active:hover.disabled,
+.datepicker td.active[disabled],
+.datepicker td.active:hover[disabled],
+.datepicker td.active:active,
+.datepicker td.active:hover:active,
+.datepicker td.active.active,
+.datepicker td.active:hover.active,
+.datepicker td span.active,
+.datepicker td span.active:hover,
+.datepicker td span.active:focus,
+.datepicker td span.active:active,
+.datepicker td span.active.active,
+.datepicker td span.active.disabled,
+.datepicker td span.active[disabled]{
+  color: #ffffff;
+  background-image: none;
+  background-color: #3498DB;
+}
+
+/* .form.volunteer color scheme begin end *//* 
+
+bootstrap 
+
+*/
+.form.volunteer .dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none;
+  min-width: 160px;
+  padding: 5px 0;
+  margin: 2px 0 0;
+  list-style: none;
+  background-color: #ffffff;
+  
+  -webkit-border-radius: 0;
+     -moz-border-radius: 0;
+          border-radius: 0;
+  -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+     -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+          box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  -webkit-background-clip: padding-box;
+     -moz-background-clip: padding;
+          background-clip: padding-box;
+
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.form.volunteer .dropdown-menu > li > a:hover,
+.form.volunteer .dropdown-menu > li > a:focus,
+.form.volunteer .dropdown-submenu:hover > a,
+.form.volunteer .dropdown-submenu:focus > a {
+  text-decoration: none;
+}
+
+.form.volunteer .btn-group {
+  position: relative;
+  display: inline-block;
+  *display: inline;
+  *margin-left: .3em;
+  white-space: nowrap;
+  vertical-align: middle;
+  *zoom: 1;
+}
+
+.form.volunteer .btn-group > .dropdown-menu{
+	font-size: 1em;
+}
+
+.form.volunteer .btn{
+	text-align: left;
+    border: 0;
+	cursor: pointer;
+
+    width: 100%;
+	height: 100%;
+	padding: 10px 10px 9px 2.3em;
+	
+	outline:none;
+
+	-webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+	
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: normal; 
+
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+	
+    border: 2px solid #BDC3C7;
+    background-color: #fff;
+	
+    font-size: 1em;
+}
+.form.volunteer .btn:active,
+.form.volunteer .btn-group.open .btn.dropdown-toggle,
+.form.volunteer .btn.active {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.form.volunteer .btn.disabled,
+.form.volunteer .btn[disabled] {
+    background-color: #bdc3c7;
+    color: rgba(255, 255, 255, 0.75);
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    opacity: 0.7;
+    filter: alpha(opacity=70);
+}
+
+.form.volunteer .select {
+    width: 100%;
+}
+
+.form.volunteer .select .btn .filter-option {
+	position: absolute;
+	left: 2.4em;
+	right: 30px;
+    overflow: hidden;
+    text-align: left;
+}
+
+.form.volunteer .select .btn .dropdown-toggle {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+.form.volunteer .select .btn .dropdown-menu {
+    min-width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form.volunteer .select .btn .dropdown-menu li:not(.disabled) > a:hover small {
+    color: rgba(255, 255, 255, 0.004);
+}
+
+.form.volunteer .select .btn > .disabled,
+.form.volunteer .select .btn .dropdown-menu li.disabled > a {
+    cursor: default;
+}
+
+.form.volunteer .dropdown-menu {
+    overflow-x: hidden;
+    display: block;
+    opacity: 0;
+    visibility: hidden;
+    width: 99%;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: 0.25s;
+    -moz-transition: 0.25s;
+    -o-transition: 0.25s;
+    transition: 0.25s;
+    -webkit-backface-visibility: hidden;
+}
+.form.volunteer .dropdown-menu.typeahead {
+    display: none;
+    opacity: 1;
+    visibility: visible;
+    width: auto;
+}
+.form.volunteer .open > .dropdown-menu {
+    margin-top: 8px;
+    opacity: 1;
+    visibility: visible;
+}
+.form.volunteer .dropdown-menu li:first-child dt + a {
+    border-radius: 0;
+}
+.form.volunteer .dropdown-menu li.active > a,
+.form.volunteer .dropdown-menu li.selected > a,
+.form.volunteer .dropdown-menu li.active > a.highlighted,
+.form.volunteer .dropdown-menu li.selected > a.highlighted,
+.form.volunteer .dropdown-menu li.active > a:hover,
+.form.volunteer .dropdown-menu li.selected > a:hover,
+.form.volunteer .dropdown-menu li.active > a.highlighted:hover,
+.form.volunteer .dropdown-menu li.selected > a.highlighted:hover,
+.form.volunteer .dropdown-menu li.active > a:focus,
+.form.volunteer .dropdown-menu li.selected > a:focus,
+.form.volunteer .dropdown-menu li.active > a.highlighted:focus,
+.form.volunteer .dropdown-menu li.selected > a.highlighted:focus {
+    color: #ffffff;
+}
+.form.volunteer .dropdown-menu li > a {
+    padding: 6px 15px 6px;
+    text-decoration: none;
+    *zoom: 1;
+    -webkit-backface-visibility: hidden;
+	display: block;
+	clear: both;
+	white-space: nowrap;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.form.volunteer .dropdown-menu li > a:before,
+.form.volunteer .dropdown-menu li > a:after {
+    display: table;
+    content: "";
+}
+.form.volunteer .dropdown-menu li > a:after {
+    clear: both;
+}
+.form.volunteer .dropdown-menu li > a.highlighted {
+    background: #c9cfd4;
+    color: #ffffff;
+}
+.form.volunteer .dropdown-menu li > a.highlighted:hover,
+.form.volunteer .dropdown-menu li > a.highlighted:focus {
+    background: #bac1c8;
+    color: #ffffff;
+}
+.form.volunteer .dropdown-menu li > a:before {
+    margin-top: 3px;
+}
+
+.form.volunteer .dropdown-menu li dt {
+    margin-bottom: 3px;
+    margin-top: 12px;
+    padding: 0 15px;
+}
+.form.volunteer .dropdown-inverse {
+    padding-top: 4px;
+}
+.form.volunteer .dropdown-inverse li {
+    margin: 0 4px -2px;
+}
+.form.volunteer .dropdown-inverse li:first-child > a,
+.form.volunteer .dropdown-inverse li:last-child > a {
+    border-radius: 0;
+    padding-bottom: 7px;
+}
+.form.volunteer .dropdown-inverse li.active > a,
+.form.volunteer .dropdown-inverse li.selected > a {
+    position: relative;
+    z-index: 1;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.form.volunteer .dropdown-inverse li dt {
+    padding-left: 11px;
+    padding-right: 11px;
+}
+.form.volunteer .dropdown-inverse li .divider {
+    margin-left: 11px;
+    margin-right: 11px;
+}
+.form.volunteer .dropdown-inverse li > a.highlighted {
+    background: #526476;
+}
+.form.volunteer .dropdown-inverse li > a.highlighted:hover,
+.form.volunteer .dropdown-inverse li > a.highlighted:focus {
+    background: #677786;
+}
+.form.volunteer .dropdown-inverse li .divider {
+    background-color: #526476;
+    border-bottom-color: #526476;
+}
+.form.volunteer .dropdown-menu.pull-right {
+	right: 0;
+	left: auto;
+}
+.form.volunteer .dropdown-arrow {
+    margin-top: 0;
+    opacity: 0;
+    position: absolute;
+    left: 13px;
+    top: 100%;
+	-webkit-transition: 0.25s;
+	-moz-transition: 0.25s;
+	-o-transition: 0.25s;
+	transition: 0.25s;
+	-webkit-backface-visibility: hidden;
+  width: 0; 
+  height: 0; 
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+    z-index: 10;
+}
+.form.volunteer .open > .dropdown-arrow {
+    margin-top: 0;
+    opacity: 1;
+}/*!
+ * Datepicker for Bootstrap
+ *
+ * Copyright 2012 Stefan Petre
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ */
+.datepicker {
+  width: 14em;
+  position: absolute;
+  background-color: #fff;
+  color: #34495e;
+  font-size: 1em;
+  top: 0;
+  left: 0;
+  padding: 4px;
+  margin-top: 8px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  display: none;
+  z-index: 10;
+  /*.dow {
+    border-top: 1px solid #ddd !important;
+  }*/
+
+}
+.datepicker:before {
+  content: '';
+  display: inline-block;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  position: absolute;
+  top: -9px;
+  left: 6px;
+}
+.datepicker:after {
+  content: '';
+  display: inline-block;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+  border-bottom: 6px solid #ffffff;
+  position: absolute;
+  top: -6px;
+  left: 7px;
+}
+.datepicker > div {
+  display: none;
+}
+.datepicker table {
+  width: 100%;
+  margin: 0;
+}
+.datepicker td,
+.datepicker th {
+  text-align: center;
+  width: 2.9em;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.datepicker td.day:hover {
+  background: #eeeeee;
+  cursor: pointer;
+}
+.datepicker td.day.disabled {
+  color: #eeeeee;
+}
+.datepicker td.old,
+.datepicker td.new {
+  color: #999999;
+}
+.datepicker td.active,
+.datepicker td.active:hover {
+  color: #ffffff;
+  background-image: none;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.datepicker td span {
+  display: block;
+  width: 1.5em;
+  height: 1.7em;
+  line-height: 1.6;
+  float: left;
+  margin: 2px;
+  cursor: pointer;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.datepicker .datepicker-months td span,
+.datepicker .datepicker-years td span {
+	width: 3.5em;
+	height: 3em;
+	line-height: 3;
+}
+.datepicker td span:hover {
+  background: #eeeeee;
+}
+.datepicker td span.active {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+.datepicker td span.old {
+  color: #999999;
+}
+.datepicker thead tr:first-child th {
+  cursor: pointer;
+}
+.datepicker thead tr:first-child th:hover {
+  background: #eeeeee;
+}
+.input-append.date .add-on i,
+.input-prepend.date .add-on i {
+  display: block;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+}

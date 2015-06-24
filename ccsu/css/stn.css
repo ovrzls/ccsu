@@ -1,0 +1,234 @@
+/** 
+Structure
+**/
+html { height:100%; }
+body { min-height:100%; }
+article {
+	display:block;
+	margin: 1em 0 2em;
+}
+
+
+/** 
+Typography
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Bitter', serif;
+**/
+
+h2.title {
+	font-family: 'Roboto Slab', serif;
+	font-weight: bold;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+a h2.wam.title {
+	color: #450606;
+	text-decoration: none;
+}
+a:hover h2.wam.title {
+	color: #660000;
+}
+.byline {
+	font-size: .85em;
+	color: #666;
+	padding-bottom: 1.46em;
+	display: block;
+}
+
+article {
+	font-family: 'Bitter', serif;
+	font-size: 1.1em;
+	line-height: 1.65em;
+}
+
+ul.newCategories {
+	list-style: none;
+	float:left;
+	width:100%;
+}
+ul.newCategories li {
+	width:100%;
+	max-width:200px;
+	float:left;
+	display:block;
+	height: 150px;
+	margin: 8px;
+}
+
+ul.newCategories li.features a {
+	background: url('http://content.ccsuvt.org/ehs/2014/09/topstory.jpg') no-repeat 50% 50%;
+	background-size: 99%;
+}
+ul.newCategories li.arts a {
+	background: url('http://content.ccsuvt.org/ehs/2014/09/arts.jpg') no-repeat 50% 50%;
+	background-size: 99%;
+}
+ul.newCategories li.advice a {
+	background: url('http://content.ccsuvt.org/ehs/2014/09/advice.jpg') no-repeat 50% 50%;
+	background-size: 99%;
+}
+ul.newCategories li.politics a {
+	background: url('http://content.ccsuvt.org/ehs/2014/09/politics.jpg') no-repeat 50% 50%;
+	background-size: 99%;
+}
+ul.newCategories li.opinion a {
+	background: url('http://content.ccsuvt.org/ehs/2014/09/opinion.jpg') no-repeat 50% 50%;
+	background-size: 99%;
+}
+ul.newCategories li.world a {
+	background: url('http://content.ccsuvt.org/ehs/2014/09/intheworld.jpg') no-repeat 50% 50%;
+	background-size: 99%;
+}
+ul.newCategories li.school a {
+	background: url('http://content.ccsuvt.org/ehs/2014/09/intheschool.jpg') no-repeat 50% 50%;
+	background-size: 99%;
+}
+
+ul.newCategories li.wam2013 a {
+	background: url('http://content.ccsuvt.org/custom/stn/wam2013.png') no-repeat 50% 50%;
+	background-size: 99%;
+}
+
+ul.newCategories li.wam2014 a {
+	background: url('http://content.ccsuvt.org/custom/stn/wam2014.png') no-repeat 50% 50%;
+	background-size: 99%;
+}
+
+ul.newCategories li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	border-radius: 8px;
+	position: relative;
+	transition: background-size .2s ease-in;
+		-moz-transition: background-size .2s ease-in;
+		-ms-transition: background-size .2s ease-in;
+		-o-transition: background-size .2s ease-in;
+		-webkit-transition: background-size .2s ease-in;
+		-ms-transition: background-size .2s ease-in;
+}
+ul.newCategories li a:hover {
+	background-size: 105%;
+}
+
+ul.newCategories li a span {
+	display: block;
+	text-align: center;
+	color: orange;
+	background: rgba(0,0,0,.4);
+	position: absolute;
+	bottom:10;
+	width: 100%;
+	font-size: 1.2em;
+	font-weight: bold;
+	text-shadow: 0px 0px 2px #000;
+}
+ul.newCategories li a:hover span {
+	color: #fff;
+	background: rgba(253,177,0,.6);
+	text-shadow: 0px 0px 2px #000;
+}
+@media (min-width: 768px) {
+	/* Required to make menu appear on mouse hover. */
+	ul.nav li.dropdown:hover > ul.dropdown-menu{
+	display: block;
+	}
+
+	ul.nav li.dropdown > ul.dropdown-menu li.dropdown-submenu:hover > ul.dropdown-menu {
+	display: block;
+	}
+}
+
+
+.navbar-nav .open .dropdown-menu{ background-color: white; }
+.hr-buzz:after{ background: url('http://content.ccsuvt.org/custom/stn/hr-buzz.png') no-repeat 50% 50%; display: block; content: ''; width: 100%; min-height: 80px; background-size: contain; overflow: visible; margin-top: 18px; margin-bottom: 18px; }
+
+/**
+Custom Navbar For the Buzz
+**/
+.navbar-stn { background-color: #225588; border-color: #1b446d; background-image: -webkit-gradient(linear, left 0%, left 100%, from(#2c6eb1), to(#225588)); background-image: -webkit-linear-gradient(top, #2c6eb1, 0%, #225588, 100%); background-image: -moz-linear-gradient(top, #2c6eb1 0%, #225588 100%); background-image: linear-gradient(to bottom, #2c6eb1 0%, #225588 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff2c6eb1', endColorstr='#ff225588', GradientType=0); }
+.navbar-stn .navbar-brand { color: #ffffff; }
+.navbar-stn .navbar-brand:hover,
+.navbar-stn .navbar-brand:focus { color: #e6e6e6; background-color: transparent; }
+.navbar-stn .navbar-text { color: #ffffff; }
+.navbar-stn .navbar-nav > li > a { color: #ffffff; }
+.navbar-stn .navbar-nav > li > a:hover,
+.navbar-stn .navbar-nav > li > a:focus { color: #ffffff; background-color: transparent; }
+.navbar-stn .navbar-nav > .active > a,
+.navbar-stn .navbar-nav > .active > a:hover,
+.navbar-stn .navbar-nav > .active > a:focus { color: #ffffff; background-color: #1b446d; background-image: -webkit-gradient(linear, left 0%, left 100%, from(#1b446d), to(#265e96)); background-image: -webkit-linear-gradient(top, #1b446d, 0%, #265e96, 100%); background-image: -moz-linear-gradient(top, #1b446d 0%, #265e96 100%); background-image: linear-gradient(to bottom, #1b446d 0%, #265e96 100%); background-repeat: repeat-x; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff1b446d', endColorstr='#ff265e96', GradientType=0); }
+.navbar-stn .navbar-nav > .disabled > a,
+.navbar-stn .navbar-nav > .disabled > a:hover,
+.navbar-stn .navbar-nav > .disabled > a:focus { color: #cccccc; background-color: transparent; }
+.navbar-stn .navbar-toggle { border-color: #dddddd; }
+.navbar-stn .navbar-toggle:hover,
+.navbar-stn .navbar-toggle:focus { background-color: #dddddd; }
+.navbar-stn .navbar-toggle .icon-bar { background-color: #cccccc; }
+.navbar-stn .navbar-collapse,
+.navbar-stn .navbar-form { border-color: #1b436b; }
+.navbar-stn .navbar-nav > .dropdown > a:hover .caret,
+.navbar-stn .navbar-nav > .dropdown > a:focus .caret { border-top-color: #ffffff; border-bottom-color: #ffffff; }
+.navbar-stn .navbar-nav > .open > a,
+.navbar-stn .navbar-nav > .open > a:hover,
+.navbar-stn .navbar-nav > .open > a:focus { background-color: #1b446d; color: #ffffff; }
+.navbar-stn .navbar-nav > .open > a .caret,
+.navbar-stn .navbar-nav > .open > a:hover .caret,
+.navbar-stn .navbar-nav > .open > a:focus .caret { border-top-color: #ffffff; border-bottom-color: #ffffff; }
+.navbar-stn .navbar-nav > .dropdown > a .caret { border-top-color: #ffffff; border-bottom-color: #ffffff; }
+@media (max-width: 767) { .navbar-stn .navbar-nav .open .dropdown-menu > li > a {
+ 	color: #ffffff;
+ }
+ .navbar-stn .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-stn .navbar-nav .open .dropdown-menu > li > a:focus {
+ 	color: #ffffff;
+ 	background-color: transparent;
+ }
+ .navbar-stn .navbar-nav .open .dropdown-menu > .active > a, .navbar-stn .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-stn .navbar-nav .open .dropdown-menu > .active > a:focus {
+ 	color: #ffffff;
+ 	background-color: #1b446d;
+ }
+ .navbar-stn .navbar-nav .open .dropdown-menu > .disabled > a, .navbar-stn .navbar-nav .open .dropdown-menu > .disabled > a:hover, .navbar-stn .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+ 	color: #cccccc;
+ 	background-color: transparent;
+ } }
+.navbar-stn .navbar-link {
+	color: #ffffff; }
+.navbar-stn .navbar-link:hover {
+	color: #ffffff; }
+
+/**
+Forces the Dropdown to scroll in fullscreen
+**/
+.dropdown-menu {
+	max-height: 600px;
+	overflow-y: scroll; }
+.centered-image img {
+	max-width: 100%; margin: 1em 0; }
+.centered-image {
+	text-align: center;
+}
+.hr-wam:after { background: url('http://content.ccsuvt.org/custom/stn/hr-wam-1.jpg') no-repeat 50% 50%; display: block; content: ''; width: 100%; min-height: 80px; background-size: contain; overflow: visible; margin-top: 18px; margin-bottom: 18px; }
+.navbar-wam { background-color: #450606}
+.navbar-wam .navbar-nav>.active>a:hover,.navbar-wam .navbar-nav>li>a:hover, .navbar-wam .navbar-nav>li>a:focus { background-color: #746F91}
+.navbar-wam .navbar-nav>.active>a,.navbar-wam .navbar-nav>.open>a,.navbar-wam .navbar-nav>.open>a, .navbar-wam .navbar-nav>.open>a:hover,.navbar-wam .navbar-nav>.open>a, .navbar-wam .navbar-nav>.open>a:hover, .navbar-wam .navbar-nav>.open>a:focus { background-color: #2A2542}
+.dropdown-menu { background-color: #FFFFFF}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-color: #CA4F4F}
+.navbar-wam { background-image: none; }
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { background-image: none; }
+.navbar-wam { border-color: #C29740}
+.navbar-wam .navbar-brand { color: #E8F3FF}
+.navbar-wam .navbar-brand:hover { color: #FFFFFF}
+.navbar-wam .navbar-nav>li>a { color: #FFFFFF}
+.navbar-wam .navbar-nav>li>a:hover, .navbar-wam .navbar-nav>li>a:focus { color: #FFFFFF}
+.navbar-wam .navbar-nav>.active>a,.navbar-wam .navbar-nav>.open>a, .navbar-wam .navbar-nav>.open>a:hover, .navbar-wam .navbar-nav>.open>a:focus { color: #FFFFFF}
+.navbar-wam .navbar-nav>.active>a:hover, .navbar-wam .navbar-nav>.active>a:focus { color: #FFFFFF}
+.navbar-wam .navbar-toggle { border-color: #dddddd; }
+.navbar-wam .navbar-toggle:hover,
+.navbar-wam .navbar-toggle:focus { background-color: #dddddd; }
+.navbar-wam .navbar-toggle .icon-bar { background-color: #cccccc; }
+.dropdown-menu>li>a { color: #333}
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus { color: #FFFFFF}
+.navbar-wam .navbar-nav>.dropdown>a .caret { border-top-color: #999999}
+.navbar-wam .navbar-nav>.dropdown>a:hover .caret { border-top-color: #FFFFFF}
+.navbar-wam .navbar-nav>.dropdown>a .caret { border-bottom-color: #999999}
+.navbar-wam .navbar-nav>.dropdown>a:hover .caret { border-bottom-color: #FFFFFF}
